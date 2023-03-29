@@ -29,6 +29,7 @@
       font-size: 21px;
       display: flex;
       justify-content: flex-start;
+     
 }
 
 .seller {
@@ -36,13 +37,16 @@
       margin-left: 15px;
       display: flex;
       justify-content: flex-start;
+      
 }
+
 
 .ratings {
       margin-top: -20px;
       margin-left: 15px;
       display: flex;
       justify-content: flex-start;
+      
 }
 
 .btn-cart {
