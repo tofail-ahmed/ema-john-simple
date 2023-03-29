@@ -1,0 +1,20 @@
+.header {
+      height: 80px;
+      padding-left: 80px;
+      padding-right: 80px;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.header a {
+      margin-left: 20px;
+}
+
+.header a:hover {
+      color: chartreuse;
+      background-color: rgb(58, 47, 107);
+      border-radius: 30%;
+
+}
