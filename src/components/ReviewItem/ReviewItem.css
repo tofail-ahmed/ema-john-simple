@@ -1,0 +1,50 @@
+.item img {
+      width: 100px;
+      border-radius: 15px;
+      margin: 5px;
+
+
+}
+
+.item {
+      display: flex;
+      align-items: center;
+      width: 570px;
+      height: 120px;
+      border: 2px black solid;
+      border-radius: 15px;
+      margin-bottom: 10px;
+}
+
+.details-btn {
+      display: flex;
+      align-items: center;
+
+
+}
+
+.itemDetails {
+      flex-grow: 1;
+}
+
+.itemDetails h3 {
+      margin-top: 10px;
+}
+
+.itemDetails h5 {
+      margin-top: -10px;
+}
+
+.btn-dlt {
+
+      margin-right: 20px;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color:#f3b75d94;
+      border: none;
+}
+
+.btn-dlt:hover {
+      background-color: rgb(252, 217, 59)
+}
