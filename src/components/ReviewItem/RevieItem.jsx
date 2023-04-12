@@ -11,9 +11,9 @@ const ReviewItem = ({ product, handleRemoveCart }) => {
                   <img src={product.img} alt="" />
 
                   <div className='itemDetails'>
-                        <h3>{product.name}</h3>
+                        <h3><h5>{product.name}</h5></h3>
                         <h5>Price: ${product.price}</h5>
-                        <h5>Shipping Cost: ${product.shipping}</h5>
+                        {/* <h5>Shipping Cost: ${product.shipping}</h5> */}
                         <h5>Quantity: {product.quantity}</h5>
                   </div>
 
